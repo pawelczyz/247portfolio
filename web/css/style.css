@@ -1,0 +1,49 @@
+body{
+    font-family: Source Sans Pro;
+    background-color: #eff0f0;
+}
+
+a{
+    color: black;
+}
+
+h1, h2, h3, h1 a, h2 a, h3 a{
+    color: #f4792a;
+}
+
+
+a{text-decoration: none;}
+
+#logo{ float: left; }
+
+.container{
+    margin: 0px auto;
+}
+
+.item {
+    width: 335px;
+    text-align: center;
+    margin: 20px auto;
+    border: 3px solid #545758;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: white;
+}
+.item.w2 { width: 50%; }
+
+.item .logo{
+    width: 150px;
+}
+
+.item header{ margin: 10px auto; }
+.item article{ margin: 5px auto; }
+.item footer{ margin: 5px auto; }
+
+.w66{
+    width: 66%;
+    float: left;
+}
+.w33{
+    width: 33%;
+    float: left;
+}

@@ -1,0 +1,81 @@
+
+<!doctype html>
+<!--[if lte IE 8]>     <html class="lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class=""> <!--<![endif]-->
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="description" content="Cascading grid layout library" />
+
+    <title>247Portfolio</title>
+
+    <link rel='stylesheet' id='twentythirteen-fonts-css'  href='//fonts.googleapis.com/css?family=Source+Sans+Pro%3A300%2C400%2C700%2C300italic%2C400italic%2C700italic%7CBitter%3A400%2C700&#038;subset=latin%2Clatin-ext' type='text/css' media='all' />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.0/jquery.min.js"></script>
+    <script type="text/javascript" src="js/masonry.pkgd.min.js"></script>
+
+</head>
+<body class="details-page" data-page="details">
+
+    <div style="border-bottom: 5px solid #545758; height: 100px;">
+        <div id="logo"><a href="http://247.com.pl"><img src="images/logos/247.png"></a></div>
+
+        <div id="site-nav">
+            <div class="primary-content">
+                <h1><a href=".">Portfolio</a></h1>
+            </div>
+        </div>
+    </div>
+
+    <div class="w66" style="margin-top: 10px;">
+        <header>
+            <img src="images/logos/gillette.png">
+            <h1>Gillette Venus – „double premiere”</h1>
+        </header>
+        <article>
+            <h2>Project</h2>
+            <p>
+                To announce brands ambassador – Jennifer Lopez and communicate
+                the official launch of new product on Polish market – Venus Embrace
+            </p>
+            <h2>Implementation</h2>
+            <ul>
+                <li>Brand ambassador official announcement in press and Internet</li>
+                <li>Press Event with official product and ambassador premiere</li>
+                <li>Exclusive cooperation with female titles (celebrity photo sessions)</li>
+                <li>EPR activities around the product and ambassador</li>
+                <li>Leverage of the brand’s expert in on-line media</li>
+                <li>Cooperation with beauty bloggers (eKOL campaign)</li>
+            </ul>
+            <h2>Results</h2>
+            <ul>
+                <li>40 publications in press, 106 in on-line media (50 of them featuring JLO)</li>
+                <li>20 beauty bloggers testing the product , 7 exclusive photo session of JLO in female and people titles</li>
+                <li>10 on-line interviews with brand’s expert</li>
+            </ul>
+        </article>
+    </div>
+
+    <div class="w33">
+        <img src="images/case_02_02.jpg">
+        <img src="images/case_02_03.jpg">
+        <img src="images/case_02_05.jpg">
+    </div>
+
+
+    <script type="text/javascript">
+        var container = document.querySelector('#container');
+        var msnry = new Masonry( container, {
+            // options
+            columnWidth: 200,
+            itemSelector: '.item'
+        });
+
+        function savePicture(){
+            alert("PIC OUTPUT");
+        }
+    </script>
+
+</body>
+</html>
